@@ -1,0 +1,369 @@
+*{
+    color:#868686;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+h1, h2, h3{
+    color:white
+}
+body{
+    background-color: #121212;
+    margin: 0;
+    
+
+}
+
+#contenitore{
+   padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+section{
+    background-color: #1e1e1f;
+    border: 1px solid #383838;
+    border-radius: 15px;
+    padding:10px;
+    margin: 10px;
+    height: fit-content;
+    
+   
+
+}
+
+
+
+.propic{
+    background-color: #3d3d3e;
+    border-radius: 40px;
+    margin:20px;
+    width: 150px;
+    
+    
+}
+.mydata{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:5px ;
+    border-radius: 40px;
+    border: 1px solid transparent;
+    justify-content: left;
+    
+    
+    width: 100%;
+    
+}
+
+.mydata img{
+    border-radius: 10px;
+    border:1px solid #3d3d3e;
+    padding:10px;
+    margin-left:10px
+
+}
+.mydata div{
+    margin: 10px;
+}
+.mydata p{
+    margin: 5px 0px;
+    padding: 0px;
+    color: white;
+}
+.mydata a{
+    color: white;
+    text-decoration: none;
+}
+.mydata:hover{
+    border: 1px solid #3d3d3e;
+    transition: 0.3s ;
+    border-radius: 15px;
+}
+.mydata a:hover{
+    color: #FAB005;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+#photonameproff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    align-items: center;
+
+
+}
+#photonameproff, #myinfo{
+    padding:10px;
+    width: fit-content;
+    
+}
+hr{
+    width: 70%;
+    margin:30px auto;
+    background-color:#3d3d3e;
+    height: 1px;
+    border: 0px;
+}
+
+#photonameproff h1{
+    font-size: x-large;
+}
+#nameproff{
+    text-align: center;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+}
+.profession{
+    background-color: #2b2b2c;
+    width: fit-content;
+    padding:5px 10px;
+    border-radius: 10px;
+
+}
+#showinfoproff{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+#photo{
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+
+
+}
+#nameproff  .profession{
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#showcontact {
+    position:relative;
+    width: 100px;
+    top:-20px;
+    
+    height: max-content;
+
+    background-image: linear-gradient( to bottom right, hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50% );
+    padding:10px;
+    display: none;
+    border-bottom:1px solid #3d3d3e;
+    border-left:1px solid #3d3d3e;
+    border-radius: 0px 10px 0px 10px;
+    text-decoration: none;
+    text-align: center;
+}    
+#showcontact:hover{
+    background-image: linear-gradient( to bottom right, hsla(45, 100%, 72%, 0.61), hsla(35, 100%, 68%, 0.021) );
+    color:#FAB005;
+    display: block;
+    transition: 0.3s;
+   
+    
+  
+}
+.selezionato{
+    background-image: linear-gradient( to bottom right, hsla(45, 100%, 72%, 0.61), hsla(35, 100%, 68%, 0.021) ) !important;
+    color:#FAB005;
+    display: block;
+    
+  
+}
+.cv{
+    width: 100%;
+    padding:20px;
+    margin-bottom: 100px;
+}
+.cv p{
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.cv h2{
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+nav{
+    background-color: #282829;
+    text-align: center;
+    position: relative;
+    left:20px;
+    top:-20px;
+    border-radius: 0px 10px 0px 25px;
+    border-bottom:  1px solid #383838;
+    border-left:  1px solid #383838
+}
+nav ol{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+nav ul{
+    padding:10px 20px
+}
+nav a{
+    color:#b6b6b6;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #989899;
+    transition: 0.2s;
+}
+
+.current{
+    color:#ffcc56d7  !important;
+}
+
+.downtitle{
+    width: 50px;
+    height: 5px;
+    border-radius: 50px;
+    background-image: linear-gradient( to left, hsl(45, 100%, 72%), hsl(35, 100%, 68%) );;
+
+}
+
+.readmore{
+    
+    color:#FAB005
+}
+@media (max-width:1200px) {
+    #showcontact{
+        display: block;
+        width: fit-content;
+       
+    }
+    .hide{
+        display: none !important;
+        transition: 5s;
+        
+        
+    }
+    .hidephotonameproffheigh{
+        top:-20px !important;
+
+    }
+    #photonameproff{
+        width: 100%;
+    }
+    
+    #myinfo, .cv{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #contenitore{
+        max-width: 900px;
+        flex-direction: column;
+        
+    }
+    #nameproff{
+        text-align: left;
+    }
+    
+    #photo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        transition: 1s;
+    }
+    .data{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        transition: 1s;
+    }
+    .mydata{
+        width: 48%;
+     
+    }
+    .mydata a, .mydata p{
+        font-size: 1.3em;
+    }
+    #photo{
+        position: relative;
+        top: -40px;
+    }
+    #divmyinfo{
+        margin-top: 0px;
+    }
+    #photo{
+        padding-top: 30px;
+    }
+    
+}
+@media (max-width:1000px) {
+    nav{
+        top:auto;
+        position: fixed;
+        left: 0;
+        bottom: 0 ;
+        width: 100%;
+        height: fit-content;
+        backdrop-filter: blur(10px);
+        justify-content: center;
+        background-color:#282829dc ;
+        display: flex;
+        border-radius: 40px 40px 0 0;
+        
+    }
+ 
+
+}
+@media (max-width:600px) {
+    #showinfoproff{
+        flex-direction:column-reverse;
+        justify-content: center;
+       
+        align-items: center;
+        
+    }
+    #showcontact{
+        border-bottom:1px solid #3d3d3e;
+        border-left:1px solid #3d3d3e;
+        border-right:1px solid #3d3d3e;
+        border-radius: 0px 0px 10px 10px;
+        padding: 5px;
+    
+        
+
+    }
+   
+    
+
+    #photo{
+        position: relative;
+        top: 0px;
+    }
+    .mydata{
+        width: 90%;
+       
+        
+    }
+
+
+
+}
