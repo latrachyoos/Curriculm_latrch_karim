@@ -47,6 +47,6 @@ function sections(index){
 }
 
 
-window.addEventListener("blur", () => {document.title = "GIVE ME A CHANCE :) " })
+window.addEventListener("blur", () => {document.title = "GIVE ME A CHANCE :)) " })
 
 window.addEventListener("focus", () => {document.title = "KARIM LATRACH" })
