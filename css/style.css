@@ -37,7 +37,7 @@ body{
 #myinfo{
     display: block;
     position: sticky;
-    z-index: 1;
+    
     top:60px
 }
 section{
