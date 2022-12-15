@@ -24,3 +24,29 @@ function readmore(lm){
     elem.classList.toggle("hide")
 
 }
+
+
+
+
+function sections(index){
+    var listection = document.getElementsByClassName("cv");
+  
+
+    
+    for(let k=0; k < listection.length; k++){
+    
+        listection[k].classList.add("hidesection")
+
+
+    }
+    listection[index].classList.remove("hidesection")
+
+
+
+
+}
+
+
+window.addEventListener("blur", () => {document.title = "GIVE ME A CHANCE :) " })
+
+window.addEventListener("focus", () => {document.title = "KARIM LATRACH" })

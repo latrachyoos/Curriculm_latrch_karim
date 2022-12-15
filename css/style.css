@@ -3,8 +3,18 @@
     font-family: 'Poppins', sans-serif;
     font-size: small;
 }
-h1, h2, h3{
-    color:white
+h1, h2, h3, h4{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+h4{
+    font-size: 1.4em;
+
 }
 body{
     background-color: #121212;
@@ -24,7 +34,12 @@ body{
     
     
 }
-
+#myinfo{
+    display: block;
+    position: sticky;
+    z-index: 1;
+    top:60px
+}
 section{
     background-color: #1e1e1f;
     border: 1px solid #383838;
@@ -246,10 +261,57 @@ nav a:hover{
 }
 
 .readmore{
+    display: none;
     
     color:#FAB005
 }
+.cardswhatido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    align-items: stretch !important;
+    justify-content: center;
+}
+.cardwhatido{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #212124;
+    border-radius: 10px;
+    border: 1px solid #2b2b2c;
+    padding:20px;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+.cardwhatido h4{
+    margin-top: 0;
+}
+
+.cardwhatido p{
+    margin-bottom: 0;
+}
+.cardwhatido div{
+    margin-left: 20px;
+}
+.cardwhatido img{
+    width:12% ;
+    height: fit-content;
+}
+
+.hidesection{
+    display: none;
+}
 @media (max-width:1200px) {
+    #myinfo{
+       
+        position: relative;
+        top:0px
+       
+     
+    }
     #showcontact{
         display: block;
         width: fit-content;
@@ -279,8 +341,10 @@ nav a:hover{
         flex-direction: column;
         
     }
-    #nameproff{
-        text-align: left;
+   
+    #nameproff h2{
+        margin-left: 0px !important ;
+
     }
     
     #photo{
@@ -330,6 +394,10 @@ nav a:hover{
         border-radius: 40px 40px 0 0;
         
     }
+    .readmore{
+        display: block;
+    }
+
  
 
 }
@@ -363,7 +431,22 @@ nav a:hover{
        
         
     }
+    .cardwhatido{
+    
+        width: 100%;
 
+    
+        
+       
+    }
+    #nameproff{
+        width: 100%;
+    }
+    #nameproff h2{
+        margin-left: auto !important ;
+
+    }
+    
 
 
 }
