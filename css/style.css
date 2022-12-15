@@ -249,7 +249,8 @@ nav a:hover{
 }
 
 .current{
-    color:#ffcc56d7  !important;
+    #color:#ffcc56d7  !important;
+    color:red  !important
 }
 
 .downtitle{
@@ -416,7 +417,7 @@ nav a:hover{
         border-radius: 0px 0px 10px 10px;
         padding: 5px;
     
-        
+
         
 
     }
