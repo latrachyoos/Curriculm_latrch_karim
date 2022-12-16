@@ -303,6 +303,102 @@ nav a:hover{
 
 .hidesection{
     display: none;
+    transform: 3s;
+}
+.timelineheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top:20px
+}
+.timelineheader h3{
+    margin: 0px 0px 0px 20px;
+}
+.timelineheader img{
+    width: 28px;
+    height: 28px;
+    padding:13px;
+    border-radius: 20px;
+    border-left:1px solid #3d3d3e;
+    border-top:1px solid #3d3d3e;
+    background-color: #212124;
+
+}
+
+
+.timeline ul{
+    list-style-type: none;
+    border-left: 1px solid #383838;
+    padding:0px 20px;
+    margin-left:25px
+}
+.timeline li{
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 10px;
+}
+
+.timeline .h4::before{
+    content: "";
+    height: 5px;
+    width: 5px;
+    left: -37px;
+    top:40px;
+    background-color: #ddb24f;
+    border-radius: 50%;
+    border:4px solid #3d3d3e;
+    position: relative;
+}
+.timeline h4:last-child{
+    margin-bottom: 0px;
+    position: relative;
+    top:10px
+}
+
+
+.h4 h4{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.h4 p{
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.timelinetitle{
+    margin-top:20px;
+    margin-bottom: 20px;
+
+}
+.timelinetitle a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.timelinetitle img{
+    height: fit-content;
+    transform: rotate(35deg);
+    position: relative;
+    
+    margin-left: 10px;
+}
+.timelinetitle a{
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+.site a:hover{
+    text-decoration: none;
+    color:white;
+    transition: 0.3s;
+    
+}
+.timelinetitle h4:hover{
+    color: #ddb24f;
+    transition: 0.3s;
+    text-decoration: underline;
 }
 @media (max-width:1200px) {
     #myinfo{
