@@ -412,6 +412,54 @@ nav a:hover{
     transition: 0.3s;
     text-decoration: underline;
 }
+
+.skillinfo:not(first-child){
+    margin-top:20px
+}
+#skills{
+    background-color: #212124;
+    border-radius: 25px;
+    border-top: 1px solid #3d3d3e;
+    border-left: 1px solid #3d3d3e;
+    padding:40px
+
+}
+
+.skilltitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.skilltitle h4{
+    margin:0px;
+    margin-right: 20px;
+    font-family: 0.5em;
+
+}
+
+.skillpercont{
+    width: 100%;
+    border-radius: 25px;
+    height: 8px;
+    background-color: #3d3d3e;
+   margin-top: 10px;
+    
+    
+    
+}
+
+
+.skillper{
+    height: 100%;
+    background-image: linear-gradient( to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%) );
+    border-radius: 25px;
+    transition: 2s;
+
+}
+
+
+
 @media (max-width:1200px) {
     #myinfo{
        
