@@ -548,6 +548,7 @@ nav a:hover{
         background-color:#282829dc ;
         display: flex;
         border-radius: 40px 40px 0 0;
+        z-index: 2;
         
     }
     .readmore{
