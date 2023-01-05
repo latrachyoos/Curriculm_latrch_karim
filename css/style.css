@@ -459,8 +459,36 @@ nav a:hover{
 }
 
 
+#cardportofoliocont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
 
+
+.cardportofolio{
+    padding:20px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 10px;
+    width: 25%;
+    border-top:1PX solid #98989936;
+    border-right:1PX solid #98989936;
+}
+
+
+.cardportofolio{
+    background-image:  linear-gradient( to bottom left, rgba(0, 0, 0, 0), #fcfcfc03 );
+
+}
 @media (max-width:1200px) {
+    .cardportofolio{
+        width: 40%;
+
+
+    }
     #myinfo{
        
         position: relative;
@@ -536,6 +564,12 @@ nav a:hover{
     
 }
 @media (max-width:1000px) {
+
+    .cardportofolio{
+        width: 30%;
+
+
+    }
     nav{
         top:auto;
         position: fixed;
@@ -559,6 +593,11 @@ nav a:hover{
 
 }
 @media (max-width:600px) {
+    .cardportofolio{
+        width: 100%;
+
+
+    }
     #showinfoproff{
         flex-direction:column-reverse;
         justify-content: center;
