@@ -483,6 +483,11 @@ nav a:hover{
     background-image:  linear-gradient( to bottom left, rgba(0, 0, 0, 0), #fcfcfc03 );
 
 }
+
+.cardportofolio:hover{
+    background-image:  linear-gradient( to bottom right, rgba(0, 0, 0, 0), #f8d16617 );
+
+}
 @media (max-width:1200px) {
     .cardportofolio{
         width: 40%;
