@@ -1,3 +1,9 @@
+:root{
+    --width: 0%;
+
+
+
+}
 *{
     color:#868686;
     font-family: 'Poppins', sans-serif;
@@ -454,8 +460,57 @@ nav a:hover{
     height: 100%;
     background-image: linear-gradient( to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%) );
     border-radius: 25px;
-    transition: 2s;
+    animation: skills1 3s ease-in;
+   
+   
+    width: var(--width);
 
+}
+
+
+
+@media (hover: hover){
+    .skillper{
+        height: 100%;
+        background-image: linear-gradient( to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%) );
+        border-radius: 25px;
+        animation: skills1 0s ease-in;
+        
+       
+       
+        width: var(--width);
+    
+    }
+    #skills:hover .skillper{
+        width: var(--width);
+        
+        animation: skills 1s ease-in;
+       
+    
+    }
+
+
+
+}
+
+@keyframes skills {
+    0%{
+        width: 0% ;
+    }
+    100%{
+        width: var(--width);
+    }
+    
+}
+
+@keyframes skills1 {
+    0%{
+        width: 0% ;
+    }
+    100%{
+        width: var(--width);
+    }
+    
 }
 
 
