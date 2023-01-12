@@ -1,4 +1,6 @@
+
 function hidecontacts(){
+
     let elem = document.getElementById("divmyinfo");
     let elem0 = document.getElementById("showcontact");
     let elem2 = document.getElementById("datatohide");
@@ -29,6 +31,7 @@ function readmore(lm){
 
 
 function sections(index){
+
     var listection = document.getElementsByClassName("cv");
   
 
@@ -47,8 +50,17 @@ function sections(index){
 }
 
 
-window.addEventListener("blur", () => {document.title = "GIVE ME A CHANCE :)) " })
+window.addEventListener("blur", () => {document.title = "GIVE ME A CHANCE" })
 
 window.addEventListener("focus", () => {document.title = "KARIM LATRACH" })
 
 
+function closeprivacy(){
+    let elem= document.getElementById("privacy")
+    let elem1= document.getElementById("showprivacy")
+    
+
+    elem.classList.toggle("hideprivacy")
+    elem1.classList.toggle("hideprivacy")
+
+}
