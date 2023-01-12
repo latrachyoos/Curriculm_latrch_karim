@@ -729,6 +729,11 @@ nav a:hover{
 
 }
 @media (max-width:600px) {
+    .privacy{
+       
+        background-image: linear-gradient(to bottom right, rgba(43, 43, 43, 0.507), #282829af);
+ 
+    }
     .cardportofolio{
         width: 100%;
 
