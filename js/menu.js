@@ -31,6 +31,21 @@ function readmore(lm){
 
 
 function sections(index){
+    let elem = document.getElementById("divmyinfo");
+    let elem0 = document.getElementById("showcontact");
+    let elem2 = document.getElementById("datatohide");
+    elem.classList.add("hide")
+    elem0.classList.remove("selezionato")
+    elem2.classList.add("hide")
+  
+    if(elem0.innerHTML == "Show Contacts"){
+        elem0.innerHTML = "Hide Contacts"
+        
+
+    }else{
+        elem0.innerHTML = "Show Contacts"
+
+    }
 
     var listection = document.getElementsByClassName("cv");
   

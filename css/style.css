@@ -611,14 +611,11 @@ nav a:hover{
 .lang{
     position: fixed;
     right: 10px;
-    bottom:80px
+    bottom:80px;
+    z-index: 5;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 3) {
-    .ios.bg-overlay {
-        -webkit-backdrop-filter: blur(10px)
-    }
-} 
+
 @media (max-width:1200px) {
     .cardportofolio{
         width: 40%;
