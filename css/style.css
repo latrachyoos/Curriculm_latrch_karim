@@ -613,6 +613,12 @@ nav a:hover{
     right: 10px;
     bottom:80px
 }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+    .ios.bg-overlay {
+        -webkit-backdrop-filter: blur(10px)
+    }
+} 
 @media (max-width:1200px) {
     .cardportofolio{
         width: 40%;
