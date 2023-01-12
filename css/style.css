@@ -595,7 +595,7 @@ nav a:hover{
     position: absolute;
     top:5px;
     border-radius: 0px 20px 20px 0px;
-    background-image: linear-gradient(to bottom right, rgba(90, 90, 90, 0.247), #3333);
+    background-image: linear-gradient(to bottom right, rgba(90, 90, 90, 0.384), #282829ef);
     animation: privacy 0.3s ease-in-out
 }
 .hideprivacy{
