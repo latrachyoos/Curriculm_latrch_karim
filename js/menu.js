@@ -1,4 +1,3 @@
-
 function hidecontacts(){
 
     let elem = document.getElementById("divmyinfo");
