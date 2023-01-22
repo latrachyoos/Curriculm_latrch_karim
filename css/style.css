@@ -238,7 +238,8 @@ nav{
     top:-20px;
     border-radius: 0px 10px 0px 25px;
     border-bottom:  1px solid #383838;
-    border-left:  1px solid #383838
+    border-left:  1px solid #383838;
+    
 }
 nav ol{
     display: flex;
